@@ -17,7 +17,7 @@ export const AuthProvider = ({ children }) => {
 
   const checkPurchasedCourses = async (token) => {
     try {
-      const response = await axios.get('https://fewvlearns-kimy.onrender.com/purchased/purchased-courses', {
+      const response = await axios.get('https://test-y646.onrender.com/purchased/purchased-courses', {
         headers: {
           'Authorization': `Bearer ${token}`
         }

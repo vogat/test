@@ -8,7 +8,7 @@ const CourseContent = ({ match }) => {
     const fetchCourseContent = async () => {
       try {
         const token = localStorage.getItem('token');
-        const response = await axios.get(`https://fewvlearns-kimy.onrender.com/course-content/course-content/${match.params.id}`, {
+        const response = await axios.get(`https://test-y646.onrender.com/course-content/course-content/${match.params.id}`, {
           headers: { Authorization: `Bearer ${token}` },
         });
         setCourse(response.data);
