@@ -39,7 +39,7 @@ const MyCourses = () => {
     try {
       let token = localStorage.getItem("token");
       const response = await axios.get(
-        "https://tutoring-vc7f.onrender.com/purchased/purchased-courses",
+        "http:localhost:3000/purchased/purchased-courses",
         {
           headers: {
             Authorization: `Bearer ${token}`,
@@ -54,7 +54,7 @@ const MyCourses = () => {
         try {
           token = await refreshToken();
           const response = await axios.get(
-            "https://tutoring-vc7f.onrender.com/purchased/purchased-courses",
+            "http://localhost:3000/purchased/purchased-courses",
             {
               headers: {
                 Authorization: `Bearer ${token}`,
