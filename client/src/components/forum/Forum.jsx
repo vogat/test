@@ -12,7 +12,7 @@ const Forum = () => {
   useEffect(() => {
     const loadMarkdown = async () => {
       try {
-        const markdownModule = await import(`../../forum/${forumId}.md`);
+        const markdownModule = await import(`../../forums/${forumId}.md`);
         
         const htmlContent = markdownModule.html || '';
         setContent(htmlContent);
