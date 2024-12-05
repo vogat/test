@@ -1,9 +1,3 @@
-
----
-
-### File 4: `sat-prep-tips.md`
-
-```md
 ---
 title: Ace Your SAT with These Prep Tips
 description: Effective strategies to tackle SAT math and reading sections.

@@ -6,10 +6,11 @@ const ForumList = () => {
 
   useEffect(() => {
     const forumFiles = [
-      { id: 'generate-jwt', title: 'FEWV Seconds of Learning How to Generate a JWT?', description: 'Learn how to generate a JSON Web Token (JWT) in just a few seconds.', tags: ['React', 'JavaScript'] },
-      { id: 'learn-docker', title: 'FEWV Seconds of Learning How to Containerize?', description: 'Learn how to containerize your applications using Docker.', tags: ['Docker', 'Node.js'] },
-      { id: 'learn-figma-react', title: 'FEWV Seconds of Learning Convert Figma to React?', description: 'Learn how to convert Figma designs to React components.', tags: ['Figma', 'React.js'] },
-      { id: 'k8s-basics', title: 'Learn Kubernetes Basics in Just a Few Seconds', description: 'Get started with Kubernetes and learn the basics in just a few seconds.', tags: ['K8s', 'Node.js'] },
+      { id: 'algebra', title: '5 Tips to Master Algebra Fundamentals', description: 'Boost your algebra skills with these essential tips and tricks.', tags: ["Algebra", "Math", "Fundamentals"] },
+      { id: 'physics', title: 'Understanding the Basics of Physics', description: 'Explore fundamental concepts in physics to spark curiosity.', tags: ["Physics", "Science", "Beginners"] },
+      { id: 'SAT', title: 'Ace Your SAT with These Prep Tips', description: 'Effective strategies to tackle SAT math and reading sections.', tags: ["SAT Prep", "Test Strategies", "Math and Reading"] },
+      { id: 'speaking', title: '5 Tips to Improve Your Public Speaking', description: 'Build confidence and captivate your audience with these tips.', tags: ["Public Speaking", "Confidence", "Presentation Skills"] },
+      { id: 'writing', title: 'Crafting Compelling Stories', description: 'Learn the basics of creative writing to tell engaging stories.', tags: ["Creative Writing", "Storytelling", "Writing Tips"] },
     ];
     setForums(forumFiles);
   }, []);
