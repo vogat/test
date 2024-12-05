@@ -3,8 +3,8 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navigation from './components/common/Navigation';
 import HomePage from './HomePage';
 import Footer from './components/common/Footer';
-import BlogList from './components/blog/BlogList';
-import Blog from './components/blog/Blog';
+import ForumList from './components/forum/ForumList';
+import Forum from './components/forum/Forum';
 import Team from './Team';
 import { AuthProvider } from './components/auth/AuthContext';
 import './App.css';
@@ -44,8 +44,8 @@ const App = () => {
           <Navigation isAuthenticated={isAuthenticated} onLogout={handleLogout} />
           <Routes>
            <Route path="/" element={<HomePage />} />
-           <Route path="/blogs" element={<PrivateRoute element={<BlogList />} />} />
-           <Route path="/blog/:blogId" element={<PrivateRoute element={<Blog />} />} />
+           <Route path="/forum" element={<PrivateRoute element={<ForumList />} />} />
+           <Route path="/forum/:forumId" element={<PrivateRoute element={<Forum />} />} />
            <Route path="/team" element={<Team />} />
            <Route path="/register" element={<Register onLogin={handleLogin} />} /> 
            <Route path="/login" element={<Login onLogin={handleLogin} />} />

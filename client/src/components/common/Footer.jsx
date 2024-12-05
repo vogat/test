@@ -19,10 +19,10 @@ export default function Footer() {
               Courses
             </Link>
             <Link
-              to="/blogs"
+              to="/forum"
               className="text-md leading-6 text-gray-100"
             >
-              Blogs
+              Forum
             </Link>
             <Link
               to="/team"
@@ -31,13 +31,13 @@ export default function Footer() {
               Team
             </Link>
             <Link
-              to="/blogs"
+              to="/forum"
               className="text-md leading-6 text-gray-100"
             >
               Privacy
             </Link>
             <Link
-              to="/blogs"
+              to="/forum"
               className="text-md leading-6 text-gray-100"
             >
               Terms & Conditions
@@ -48,7 +48,7 @@ export default function Footer() {
           <div className="flex space-x-10 justify-center items-center mb-14">
             <Link
               to="/"
-              className="block  text-gray-100 transition-all duration-500 hover:text-green-300"
+              className="block  text-gray-100 transition-all duration-500 hover:text-blue-300"
             >
               <svg
                 className="w-[1.688rem] h-[1.688rem]"
@@ -64,7 +64,7 @@ export default function Footer() {
             </Link>
             <Link
               to="/"
-              className="block  text-gray-100 transition-all duration-500 hover:text-green-300"
+              className="block  text-gray-100 transition-all duration-500 hover:text-blue-300"
             >
               <svg
                 className="w-[1.688rem] h-[1.688rem] "
@@ -80,7 +80,7 @@ export default function Footer() {
             </Link>
             <Link
               to="/"
-              className="block  text-gray-100 transition-all duration-500 hover:text-green-300"
+              className="block  text-gray-100 transition-all duration-500 hover:text-blue-300"
             >
               <svg
                 className="w-[0.938rem] h-[1.625rem]"
@@ -96,7 +96,7 @@ export default function Footer() {
             </Link>
             <Link
               to="/"
-              className="block  text-gray-100 transition-all duration-500 hover:text-green-300"
+              className="block  text-gray-100 transition-all duration-500 hover:text-blue-300"
             >
               <svg
                 className="w-[1.875rem] h-[1.375rem]"
@@ -113,7 +113,7 @@ export default function Footer() {
               </svg>
             </Link>
           </div>
-          <span className="text-lg text-green-300 text-center block">
+          <span className="text-lg text-blue-300 text-center block">
             ©<Link to="/">FewvLearns</Link> 2024. All rights
             reserved.
           </span>

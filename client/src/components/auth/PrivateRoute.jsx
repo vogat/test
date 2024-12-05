@@ -9,7 +9,7 @@ const PrivateRoute = ({ element }) => {
 
   useEffect(() => {
     if (!token && !alertShown.current) {
-      alert('Please Register to access the Blogs.');
+      alert('Please Register to access the forum.');
       alertShown.current = true; // Mark alert as shown
       setRedirect(true);
     }
