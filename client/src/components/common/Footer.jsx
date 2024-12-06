@@ -16,7 +16,7 @@ export default function Footer() {
               to="/Courses"
               className="text-md leading-6 text-gray-100"
             >
-              Courses
+              Lectures
             </Link>
             <Link
               to="/forum"

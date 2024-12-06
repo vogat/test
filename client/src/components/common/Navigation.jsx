@@ -37,7 +37,7 @@ const Navigation = () => {
             Forum
           </Link>
           <Link to="/courses" className="text-white hover:text-blue-300 mx-4">
-            Courses
+            Lectures
           </Link>
           <Link to="/team" className="text-white hover:text-blue-300 mx-4">
             Meet Team
