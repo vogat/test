@@ -1,5 +1,5 @@
 ---
-title: Creative Writing 101: Crafting Compelling Stories
+title: Creative Writing 101 Crafting Compelling Stories
 description: Learn the basics of creative writing to tell engaging stories.
 tags:
   - "Creative Writing"

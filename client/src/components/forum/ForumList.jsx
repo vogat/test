@@ -10,7 +10,7 @@ const ForumList = () => {
       { id: 'physics', title: 'Understanding the Basics of Physics', description: 'Explore fundamental concepts in physics to spark curiosity.', tags: ["Physics", "Science", "Beginners"] },
       { id: 'SAT', title: 'Ace Your SAT with These Prep Tips', description: 'Effective strategies to tackle SAT math and reading sections.', tags: ["SAT Prep", "Test Strategies", "Math and Reading"] },
       { id: 'speaking', title: '5 Tips to Improve Your Public Speaking', description: 'Build confidence and captivate your audience with these tips.', tags: ["Public Speaking", "Confidence", "Presentation Skills"] },
-      { id: 'writing', title: 'Crafting Compelling Stories', description: 'Learn the basics of creative writing to tell engaging stories.', tags: ["Creative Writing", "Storytelling", "Writing Tips"] },
+      { id: 'writing', title: 'Creative Writing 101 Crafting Compelling Stories', description: 'Learn the basics of creative writing to tell engaging stories.', tags: ["Creative Writing", "Storytelling", "Writing Tips"] },
     ];
     setForums(forumFiles);
   }, []);
