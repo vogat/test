@@ -9,31 +9,31 @@ import course5 from "../../assets/courses-images/5.jpg";
 const courses = [
   {
     id: 1,
-    name: "Real-Time Data Streaming",
+    name: "Mastering Algebra Fundamentals",
     price: 0,
     imageUrl: course1,
   },
   { 
     id: 2,
-    name: "Create React App with Webpack",
+    name: "Introduction to Creative Writing",
     price: 20, 
     imageUrl: course2
   },
   {
     id: 3,
-    name: "Learn about Terraform in Detail",
+    name: "Exploring Physics for Beginners",
     price: 20,
     imageUrl: course3,
   },
   {
     id: 4,
-    name: "Learn In-Depth about Kubernetes",
+    name: "SAT Prep: Math and Reading Help",
     price: 30,
     imageUrl: course4,
   },
   {
     id: 5,
-    name: "Create Your First Serverless Web App",
+    name: "Introduction to Public Speaking",
     price: 40,
     imageUrl: course5,
   },
